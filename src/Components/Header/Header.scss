@@ -1,0 +1,49 @@
+.header {
+   background-color: #bb5432;
+   color: #fff;
+   font-size: 1rem;
+   width: 325px;
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   h1 {
+      font-weight: 500;
+      font-size: 2.5rem;
+      padding: 10px;
+      box-sizing: border-box;
+   }
+
+   input.initialCurrency {
+      width: 100px;
+      text-align: center;
+      padding: 20px;
+      font-size: 2rem;
+      color: #bb5432;
+      border: 0;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      /* Firefox */
+      -moz-appearance: textfield;
+
+      /* Chrome */
+      &::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+         margin: 0;
+      }
+
+      /* Opéra*/
+      &::-o-inner-spin-button {
+         -o-appearance: none;
+         margin: 0;
+      }
+   }
+
+   p {
+      font-size: 2rem;
+      font-weight: 300;
+   }
+}

@@ -1,0 +1,33 @@
+.currencies {
+   width: 100%;
+
+   h3 {
+      color: #bb5432;
+      font-weight: 700;
+      font-size: 1.4rem;
+      padding: 17px 0 13px 15px;
+      background-color: #fff;
+      display: flex;
+      border-bottom: 1px solid #f1c5b6;
+   }
+
+   .listCurrencies {
+      height: 243px;
+      overflow-y: scroll;
+      color: #bb5432;
+      font-size: 1.4rem;
+      font-weight: 300;
+      background-color: #fff;
+
+      li {
+         border-bottom: 1px solid #f1c5b6;
+         text-align: left;
+         padding: 3px 15px;
+         cursor: pointer;
+         transition: all 0.4s ease-in-out;
+         &:hover{
+            background-color:#f1c5b6;
+         }
+      }
+   }
+}
